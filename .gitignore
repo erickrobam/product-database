@@ -1,0 +1,18 @@
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# MySQL dumps and local database files
+*.sql.gz
+*.dump
+*.ibd
+*.ibdata
+*.err
+*.pid
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
